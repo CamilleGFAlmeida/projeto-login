@@ -89,7 +89,7 @@ div.campo > i {
 div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 44%px); 
+    width: calc(100% - 45px); 
     height: 100%;
     border: 0px;
     border-radius: 8px;
@@ -139,4 +139,13 @@ form > a.botao:hover {
 
 form > a.botao > i {
     font-size: 0.8em;
+}
+
+
+
+/* ALTERAÇÃO PRÓPRIA */ 
+
+div.campo > input::placeholder { /* muda a cor do placeholder */ 
+    color: #5f2c82;
+    font-weight: 600;
 }
